@@ -1,0 +1,39 @@
+.post {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.profile__content {
+  width: 161px;
+  padding: 4px;
+}
+
+.content__post {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  padding: 24px;
+}
+
+.post__apple {
+display: flex;
+flex-direction: column;
+}
+
+.post__apple div {
+  display: flex;
+  justify-content: center;
+}
+
+.post__apple--title {
+  text-align: center;
+}
+
+.post__apple .post__apple--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
